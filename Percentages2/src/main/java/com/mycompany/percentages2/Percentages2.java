@@ -6,12 +6,12 @@ package com.mycompany.percentages2;
 
 /**
  *
- * @author 24014825
+ * @author LENOVO
  */
 import java.util.Scanner;
 public class Percentages2 {
 
-       public static void computePercent(double num1, double num2) {
+      public static void computePercent(double num1, double num2) {
         if (num2 == 0) {
             System.out.println("Cannot divide by zero!");
             return;
@@ -28,8 +28,13 @@ public class Percentages2 {
 
         System.out.print("Enter second number: ");
         double b = input.nextDouble();
-         computePercent(a, b);
-          computePercent(b, a);
 
+        
+        computePercent(a, b);
+        
+        
+        computePercent(b, a);
+
+        input.close();
     }
 }
