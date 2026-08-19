@@ -19,7 +19,8 @@ public class Percentages2 {
         double percent = (num1 / num2) * 100;
         System.out.println(num1 + " is " + percent + " percent of " + num2);
     }
-          public static void main(String[] args) {
+
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
@@ -27,9 +28,8 @@ public class Percentages2 {
 
         System.out.print("Enter second number: ");
         double b = input.nextDouble();
-          computePercent(a, b);
+         computePercent(a, b);
           computePercent(b, a);
-            input.close();
-     
+
     }
 }
