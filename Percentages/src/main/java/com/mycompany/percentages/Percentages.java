@@ -10,15 +10,7 @@ package com.mycompany.percentages;
  */
 public class Percentages {
 
-     public static void computePercent(double num1, double num2) {
-        double percent = (num1 / num2) * 100;
-        System.out.println(num1 + " is " + percent + " percent of " + num2);
-    }
-
     public static void main(String[] args) {
-        double a = 2.0;
-        double b = 5.0;
-        computePercent(a, b);
-        computePercent(b, a);
+        System.out.println("Hello World!");
     }
 }
