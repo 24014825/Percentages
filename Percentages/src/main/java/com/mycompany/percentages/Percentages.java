@@ -6,11 +6,19 @@ package com.mycompany.percentages;
 
 /**
  *
- * @author LENOVO
+ * @author 24014825
  */
 public class Percentages {
+    public static void computePercent(double num1, double num2) {
+        double percent = (num1 / num2) * 100;
+        System.out.println(num1 + " is " + percent + " percent of " + num2);
+    }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        double firstNumber = 2.0;
+        double secondNumber = 5.0;
+
+        computePercent(firstNumber, secondNumber);
+          computePercent(secondNumber, firstNumber);
     }
 }
